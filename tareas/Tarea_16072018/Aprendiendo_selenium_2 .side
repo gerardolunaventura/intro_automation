@@ -1,0 +1,144 @@
+{
+  "id": "4acb09bf-6a53-4595-afe7-c33871b73b02",
+  "name": "Aprendiendo_selenium_2 ",
+  "url": "",
+  "tests": [{
+    "id": "5653206a-ef8b-4135-ab60-81eb959f003a",
+    "name": "CP1_16072018",
+    "commands": [{
+      "id": "2917a077-5cd8-4c82-9bb5-abfd5cf0e255",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "value": ""
+    }, {
+      "id": "efe1a885-1a12-42dc-8984-a52111dd80b9",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//button[@id=\"u_0_11\"]",
+      "value": ""
+    }, {
+      "id": "44b55218-2e56-4be6-8951-10ed8bfe6d9c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//div[@class=\"clearfix\"]",
+      "value": "¿Cómo te llamas?"
+    }, {
+      "id": "689f4ddb-2027-44a5-a415-58cc343b1490",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id=\"u_0_j\"]",
+      "value": "Marcos"
+    }, {
+      "id": "03285395-6181-4dcc-831e-59872e54d609",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id=\"u_0_l\"]",
+      "value": "Lozano"
+    }, {
+      "id": "588da0a0-c426-4295-8a5f-ef45ff4315cc",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id=\"u_0_o\"]",
+      "value": "safasdfasdf2@hotmail.com"
+    }, {
+      "id": "a3467427-1557-4ac5-aa15-50ba5f651c4a",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id=\"u_0_r\"]",
+      "value": "safasdfasdf2@hotmail.com"
+    }, {
+      "id": "1c7c8125-e336-4803-ae75-9e43bd6c850b",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id=\"u_0_v\"]",
+      "value": "SantaFe1234"
+    }, {
+      "id": "63376008-54e4-45c3-8d62-ef1834fe7bcc",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//input[@id=\"u_0_a\"]",
+      "value": ""
+    }, {
+      "id": "a0cb3bec-2c59-45cb-bb84-43875b50107b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//button[@id=\"u_0_11\"]",
+      "value": ""
+    }, {
+      "id": "5a99d82a-aa1b-4a54-90d2-cff9e358e862",
+      "comment": "",
+      "command": "clickAt",
+      "target": " //button[@class=\"_42ft _4jy0 layerConfirm _2rsa uiOverlayButton _4jy3 _4jy1 selected _51sy\"]",
+      "value": ""
+    }, {
+      "id": "63f78752-edab-4e79-8764-442724f2fbca",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//h2[@class=\"uiHeaderTitle\"]",
+      "value": " Confirma tu correo electrónico"
+    }]
+  }, {
+    "id": "1b7bc2fc-5687-4257-b23b-176e28a690a2",
+    "name": "CP2_16072018",
+    "commands": [{
+      "id": "2626491e-fbf1-4239-a3bc-c0d2bf80a406",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.facebook.com/",
+      "value": "safasdfasdf2@hotmail.com"
+    }, {
+      "id": "3df37e46-7867-4454-8647-e1eaf84ceedb",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//input[@value=\"Iniciar sesión\"]",
+      "value": ""
+    }, {
+      "id": "b0fe842a-6d86-4266-a2e3-f06b8f0aca32",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//div[@class=\"uiContextualLayerPositioner _572t uiLayer hidden_elem\"]",
+      "value": "El correo electrónico o el número de teléfono que ingresaste no coinciden con ninguna cuenta."
+    }, {
+      "id": "5b968d61-4be4-47f6-b38a-c75178ebbf1e",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id=\"email\"]",
+      "value": "safasdfasdf2@hotmail.com"
+    }, {
+      "id": "7a80c783-04b4-45a8-befe-8c99c279ccf6",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id=\"pass\"]",
+      "value": "SantaFe1234"
+    }, {
+      "id": "ebdaf9a4-6ee5-4f36-81a7-37011226c169",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//button[@id=\"loginbutton\"]",
+      "value": ""
+    }, {
+      "id": "e831f2a0-01e2-4270-9a92-20a56fd2a350",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//span[@class=\"_1vp5\"]",
+      "value": ""
+    }, {
+      "id": "b47e7180-d5ff-488b-a376-1d9ca4026a4b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//span[@class=\"_1vp5\"]",
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2a930075-1feb-4c27-8e17-7aeebb031d30",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": [],
+  "version": "1.0"
+}
